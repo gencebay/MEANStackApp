@@ -2,14 +2,14 @@
  * Created by gencebay
  */
 var home = require('../controllers/home'),
-    todos = require('../controllers/todos'),
+    todo = require('../controllers/todo'),
     test = require('../controllers/test')
 
 module.exports.initialize = function(app) {
     app.get('/', home.index);
     app.get('/test', test.index);
-    app.get('/api/todos', todos.index);
-    app.get('/api/todos/:id', todos.getById);
-    app.post('/api/todos', todos.add);
-    app.put('/api/todos/:id', todos.put);
+    app.get('/api/todos', todo.index);
+    app.get('/api/todos/:id', todo.getById);
+    app.post('/api/todos', todo.add);
+    app.put('/api/todos/:id', todo.put);
 };

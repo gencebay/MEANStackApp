@@ -3,6 +3,6 @@
  */
 module.exports = {
     index: function(req, res) {
-        res.render('index', { title: 'Express Router is working for you' });
+        res.render('index', { title: 'MEANStackApp ready to use' });
     }
 };
