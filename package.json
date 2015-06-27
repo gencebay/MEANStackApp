@@ -2,23 +2,30 @@
   "name": "workspace",
   "version": "0.0.1",
   "description": "Demo Application",
-  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ajaxorg/demo-project.git"
+    "url": "git://github.com/gencebay/MEANStackApp.git"
   },
   "author": "Gencebay Demir",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajaxorg/demo-project/issues"
+    "url": "https://github.com/gencebay/MEANStackApp/issues"
   },
-  "homepage": "https://github.com/ajaxorg/demo-project",
+  "homepage": "https://github.com/gencebay/MEANStackApp",
   "dependencies": {
+    "MD5": "^1.2.2",
+    "body-parser": "^1.13.1",
+    "errorhandler": "^1.4.0",
     "express": "^4.13.0",
     "express-handlebars": "^2.0.1",
-    "mongoose": "^4.0.6"
+    "express-session": "^1.11.3",
+    "method-override": "^2.3.3",
+    "mongoose": "^4.0.6",
+    "morgan": "^1.6.0",
+    "multer": "^0.1.8"
   }
 }
