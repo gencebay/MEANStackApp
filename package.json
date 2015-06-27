@@ -1,0 +1,23 @@
+{
+  "name": "workspace",
+  "version": "0.0.1",
+  "description": "Demo Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ajaxorg/demo-project.git"
+  },
+  "author": "Gencebay Demir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajaxorg/demo-project/issues"
+  },
+  "homepage": "https://github.com/ajaxorg/demo-project",
+  "dependencies": {
+    "express": "^4.13.0",
+    "express-handlebars": "^2.0.1"
+  }
+}
